@@ -28,16 +28,11 @@
 项目文件结构
 |文件名|作用|
 |--|--|
-|`.gitattributes`|定义版本库中文件的属性，如文件的合并策略、换行符处理等|
-|`.gitignore`|指定哪些文件或目录不需要被Git跟踪，防止将不必要的文件纳入版本管理|
-|`LICENSE.txt`|项目的许可文件，规定项目的使用、分发等相关权限和限制|
-|`README.md`|项目的说明文档，用于介绍项目基本信息、功能、使用方法等|
 |`apply.cpp`和`apply.h`|可能包含与预约申请相关的实现代码和声明，如预约申请的处理逻辑|
 |`computer.h`|可能定义了与机房计算机相关的类或结构体，包含计算机的属性和操作|
 |`globalfile.h`|或许用于定义一些全局的文件路径、常量等信息，方便项目中其他文件引用|
 |`identity.h`|可能包含与用户身份相关的定义，如用户角色的枚举类型等|
 |`manager.cpp`和`manager.h`|实现管理员模块的功能，包含管理员相关操作的代码和声明|
 |`student.cpp`和`student.h`|实现学生模块的功能，包含学生相关操作的代码和声明|
-|`system of comp.sln`、`system of comp.vcxproj`、`system of comp.vcxproj.filters`|Visual Studio项目文件，用于管理项目的构建、配置和文件筛选等|
 |`system.cpp`|可能是系统的核心文件，负责整合各个模块的功能，实现系统的整体逻辑|
 |`teacher.cpp`和`teacher.h`|实现教师模块的功能，包含教师相关操作的代码和声明|
